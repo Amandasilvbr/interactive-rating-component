@@ -1,0 +1,25 @@
+// variables
+$primary-color: hsl(25, 97%, 53%);
+$secundary-text: hsl(217, 12%, 63%);
+$background-components: hsl(210, 19%, 18%);
+$card-color: hsl(215, 25%, 14%);
+$background: hsl(216, 12%, 8%);
+
+// mixins
+@mixin align-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin rounded-btn {
+  border: 0;
+  border-radius: 100%;
+  background-color: $background-components;
+  color: $secundary-text;
+}
+
+@mixin title() {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}

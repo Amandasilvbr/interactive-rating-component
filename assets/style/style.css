@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+  color: hsl(217deg, 12%, 63%);
+  font-family: "overpass", Arial, Helvetica, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+body main {
+  background-color: hsl(215deg, 25%, 14%);
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 30px 12px 30px 30px;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+#card-1 .title-1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+#card-1 #img-star {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  background-color: white;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border: 0;
+  border-radius: 100%;
+  background-color: hsl(210deg, 19%, 18%);
+  color: hsl(217deg, 12%, 63%);
+}
+#card-1 .text-card {
+  padding: 20px 0px 30px 0px;
+}
+#card-1 .numbers-btn {
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+#card-1 .numbers-btn button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 0px 18px 30px 0px;
+  border: 0;
+  border-radius: 100%;
+  background-color: hsl(210deg, 19%, 18%);
+  color: hsl(217deg, 12%, 63%);
+}
+#card-1 .numbers-btn button:hover {
+  cursor: pointer;
+  background-color: hsl(25deg, 97%, 53%);
+  color: white;
+}
+#card-1 #submit-btn {
+  width: 340px;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  background-color: hsl(25deg, 97%, 53%);
+  border-radius: 50px;
+  border: 0;
+}
+#card-1 #submit-btn:hover {
+  background-color: white;
+  color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+
+#card-2 {
+  display: none;
+}
+#card-2 .content {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+#card-2 #rating {
+  background-color: hsl(210deg, 19%, 18%);
+  color: hsl(25deg, 97%, 53%);
+  margin: 35px;
+  padding: 2px 10px 2px 10px;
+  border-radius: 30px;
+}
+#card-2 .title-2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+#card-2 .text-card {
+  padding: 20px 18px 10px 0px;
+}/*# sourceMappingURL=style.css.map */

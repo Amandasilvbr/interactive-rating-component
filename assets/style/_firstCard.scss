@@ -1,0 +1,80 @@
+body {
+  background-color: $background;
+  color: $secundary-text;
+  font-family: "overpass", Arial, Helvetica, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  @include align-center;
+
+  main {
+    background-color: $card-color;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 30px 12px 30px 30px;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    @include align-center;
+  }
+}
+
+#card-1 {
+  .title-1 {
+    @include title;
+  }
+
+  #img-star {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    @include align-center;
+    @include rounded-btn;
+  }
+
+  .text-card {
+    padding: 20px 0px 30px 0px;
+  }
+
+  .numbers-btn {
+    justify-content: center;
+    flex-direction: row;
+    @include align-center;
+
+    button {
+      width: 50px;
+      height: 50px;
+      font-size: 18px;
+      margin: 0px 18px 30px 0px;
+      @include rounded-btn;
+    }
+
+    button:hover {
+      cursor: pointer;
+      background-color: $primary-color;
+      color: white;
+    }
+  }
+
+  #submit-btn {
+    width: 340px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: $primary-color;
+    border-radius: 50px;
+    border: 0;
+  }
+
+  #submit-btn:hover {
+    background-color: white;
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
